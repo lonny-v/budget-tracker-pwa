@@ -1,0 +1,27 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lonny-v/budget-tracker-pwa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lonny-v/budget-tracker-pwa/issues"
+  },
+  "homepage": "https://github.com/lonny-v/budget-tracker-pwa",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0"
+  }
+}
